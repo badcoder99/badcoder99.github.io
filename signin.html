@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ROVE: Sign In</title>
+    </head>
+    <body>
+        <div id="top">
+            <a href="index.html"><img src="img/top_large.png"></a>
+        </div>
+        <div id="content" class="border">
+            <div id="menu">
+                <a href="rent.html">Rentals</a>
+                <a href="tour.html">Tour</a>
+                <a href="shop.html">Shop</a>
+                <a href="register.html">Register</a>
+                <a href="signin.html"><b>Sign In</b></a>
+            </div>
+            <div id="main">
+                <h1>Sign In</h1>
+                <hr><br>
+                <form id="login-form" onsubmit="return false;">
+                    <label for="email-text">Email</label><br>
+                    <input type="email" name="email" id="email-text" required="required"><br>
+
+                    <br><label for="password-text">Password</label><br>
+                    <input type="password" name="password" id="password-text" required="required"><br>
+
+                    <br><input type="submit" value="Login"><br>
+                    <span style="color: red;" id="span-error"></span>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

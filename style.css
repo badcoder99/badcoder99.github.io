@@ -1,0 +1,116 @@
+@font-face {
+   font-family: "Source Sans";
+   src: url("font/SourceSans.ttf");
+}
+
+@font-face {
+   font-family: "Sarpanch";
+   src: url("font/Sarpanch.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #60798c;
+    font-family: "Sarpanch";
+    margin-bottom: 0.25em;
+}
+
+p {
+    color: white;
+    font-family: "Source Sans";
+}
+
+#menu {
+    float: left;
+    width: calc(30% - 2em);
+    text-align: center;
+}
+
+#menu a {
+    padding: 1em;
+    margin: 1em;
+    display: block;
+    width: calc(100% - 2em);
+    color: white;
+    background: #ce8328;
+    text-decoration: none;
+    font-family: "Source Sans";
+    font-size: 1.25em;
+}
+
+#main {
+    float: left;
+    width: calc(70% - 1em);
+    margin-left: 0;
+    padding: 0 1em 0 1em;
+}
+
+#main img {
+    width: 100%;
+    padding: 2em;
+}
+
+#content {
+    overflow: auto;
+    background: black;
+}
+
+@media only screen and (max-width:620px) {
+    #main, #menu {
+        width: calc(100%);
+    }
+}
+
+hr {
+    border-top: 2px solid #CE8328;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 0;
+}
+
+#list {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 0.5em;
+    width: 20em;
+    background: white;
+}
+
+#list img {
+    padding: 0em;
+    display: block;
+}
+
+.item div {
+    padding: 1em 1em 1em 1em;
+    color: black;
+}
+
+label {
+    color: white;
+}
+
+#top {
+    width: 100%;
+    background: white;
+}
+
+#top img {
+    height: 8em;
+    display: block;
+}
+
