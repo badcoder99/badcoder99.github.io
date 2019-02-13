@@ -13,7 +13,7 @@
 }
 
 body {
-    background: black;
+    background: #36454F;
     margin: 0;
     font-family: sans-serif;
 }
@@ -44,13 +44,14 @@ p {
     background: #ce8328;
     text-decoration: none;
     font-family: "Source Sans";
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 #main {
     float: left;
     width: calc(70% - 1em);
     margin-left: 0;
+    margin-bottom: 1em;
     padding: 0 1em 0 1em;
 }
 
@@ -61,7 +62,7 @@ p {
 
 #content {
     overflow: auto;
-    background: black;
+    background: #2a3439;
 }
 
 @media only screen and (max-width:620px) {
@@ -87,17 +88,17 @@ hr {
 .item {
     margin: 0.5em;
     width: 20em;
-    background: white;
+    background: #36454F;
 }
 
 #list img {
-    padding: 0em;
+    padding: 1em 1em 0 1em;
     display: block;
 }
 
 .item div {
     padding: 1em 1em 1em 1em;
-    color: black;
+    color: white;
 }
 
 label {
