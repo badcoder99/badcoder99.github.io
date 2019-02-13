@@ -106,11 +106,12 @@ label {
 
 #top {
     width: 100%;
-    background: white;
+    background-color: white;
+    background-image: url("img/top_large.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 8em;
+    height: 8em; 
 }
 
-#top img {
-    height: 8em;
-    display: block;
-}
 
